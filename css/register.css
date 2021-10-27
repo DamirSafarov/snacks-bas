@@ -1,0 +1,32 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+
+/* REGISTER */
+.login-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.login-inner_img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
